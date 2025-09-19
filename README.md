@@ -1,6 +1,6 @@
-# Friday Night Funkin' - Psych Engine v0.7.3 Template
+# Friday Night Funkin' - Third Eye Club
 
-This Template for Making any Mods and Engines you want, with Mobile Support.
+A Mod Brazilian made by Friends
 
 ![special](docs/img/special.png)
 
