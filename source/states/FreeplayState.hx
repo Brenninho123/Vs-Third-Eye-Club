@@ -181,7 +181,7 @@ class FreeplayState extends MusicBeatState
 		updateTexts();
 
 		#if mobile
-		addTouchPad("LEFT_FULL", "A_B_C_X_Y_Z");
+		addTouchPad("LEFT_FULL", "A_B");
 		#end
 		
 		super.create();
@@ -194,7 +194,7 @@ class FreeplayState extends MusicBeatState
 
 		#if mobile
 		removeTouchPad();
-		addTouchPad("LEFT_FULL", "A_B_C_X_Y_Z");
+		addTouchPad("LEFT_FULL", "A_B");
 		#end
 	}
 
