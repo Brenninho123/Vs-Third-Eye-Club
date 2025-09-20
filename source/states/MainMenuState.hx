@@ -2,7 +2,7 @@ package states;
 
 import flixel.FlxObject;
 import flixel.addons.transition.FlxTransitionableState;
-import flixel.effects.FlxFlicker;
+import flixel.util.FlxFlicker;
 import lime.app.Application;
 import states.editors.MasterEditorMenu;
 import options.OptionsState;
@@ -47,7 +47,7 @@ class MainMenuState extends MusicBeatState
 
 		#if DISCORD_ALLOWED
 		// Updating Discord Rich Presence
-		DiscordClient.changePresence("In the Menus", null);
+		DiscordClient.changePresence("In the Menu", null);
 		#end
 
 		transIn = FlxTransitionableState.defaultTransIn;
@@ -120,7 +120,7 @@ class MainMenuState extends MusicBeatState
 		#end
 
 		#if mobile
-		addTouchPad("UP_DOWN", "A_B");
+		addTouchPad("UP_DOWN", "A_B_E");
 		#end
 
 		super.create();
